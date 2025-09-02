@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/illustrations/</loc>
+    <loc>https://naem-j.github.io/tw-portfolio/illustrations/</loc>
     <lastmod>2025-07-24T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://naem-j.github.io/tw-portfolio/about/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://naem-j.github.io/tw-portfolio/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://naem-j.github.io/tw-portfolio/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://naem-j.github.io/tw-portfolio/tags/</loc>
   </url>
 </urlset>
