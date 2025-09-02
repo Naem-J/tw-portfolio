@@ -1,0 +1,102 @@
+{{ define "main" }}
+	<header>
+		{{ partial "header.html" . }}
+	</header>
+
+	{{ $organizations := .Site.Data.config.home.organizations }}
+	{{ if eq $organizations true }}
+		<h2>Companies and Academic Projects</h2>
+
+		{{ range index .Site.Data.organizations.org }}
+			<div style="width:100%;float:left;margin-bottom:25px">
+				<div style="width:40%;float:left">
+					<img src="{{ .logo }}" alt="{{ .alt }}" />
+				</div>
+				<div style="width:60%;float:left">
+					<a href="{{ .url }}" target="_blank">{{ .title }}</a>{{ .description }}
+				</div>
+			</div>
+		{{ end }}
+	{{ end }}
+
+	{{ $portfolio := .Site.Data.config.home.portfolio }}
+	{{ if eq $portfolio true }}
+		<h2>Portfolio</h2>
+
+		<ul class="horizontal-list">
+			{{ range index .Site.Data.portfolio.projects }}
+				<li class="card">
+					<a href="{{ .url }}">
+						<span class="header">
+							{{ .title }}
+							{{ if eq .wip true }}
+								<mark>WIP</mark>
+							{{ end }}
+						</span>
+						<hr>
+						<p class="body">
+							{{ .description }}
+						</p>
+					</a>
+			{{ end }}
+		</ul>
+	{{ end }}
+
+	{{ $blog := .Site.Data.config.home.blog }}
+	{{ if eq $blog true }}
+		<h2>Blog</h2>
+
+		<ul>
+			{{ $timeformat := .Site.Data.config.home.date_format }}
+			{{ range where .Site.RegularPages "Type" "posts" }}
+				<li class="post-list-item">
+					{{ .Date | time.Format $timeformat }}»
+					<a href="{{ .Permalink }}">{{ .Title }}</a>
+				</li>
+			{{ end }}
+		</ul>
+	{{ end }}
+
+	{{ $oldProjects := .Site.Data.config.home.old_projects }}
+	{{ if eq $oldProjects true }}
+		<h2>Old Projects</h2>
+
+		<ul class="horizontal-list">
+			{{ range index .Site.Data.old_projects.projects }}
+				<li class="card">
+					<a href="{{ .url }}">
+						<span class="header">
+							{{ .title }}
+							{{ if eq .new true }}
+								<mark>NEW</mark>
+							{{ end }}
+							<hr>
+							<p class="body">
+								{{ .description }}
+							</p>
+						</span>
+					</a>
+				</li>
+			{{ end }}
+		</ul>
+	{{ end }}
+
+	{{ $otherDocs := .Site.Data.config.home.other_docs }}
+	{{ if eq $otherDocs true }}
+		<h2>Other Document Types</h2>
+
+	<p>Besides the samples provided, I have also created the following document types:</p>
+
+	<ul>
+		{{ range index .Site.Data.doc_types.doc_types }}
+			<li>
+				{{ .title }}
+			</li>
+		{{ end }}
+	</ul>
+{{ end }}
+
+	<footer>
+		{{ partial "footer.html" . }}
+	</footer>
+{{ end }}

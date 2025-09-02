@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Technical Writing Portfolio</title>
-    <link>https://naem-j.github.io/tw-portfolio/</link>
+    <link>http://localhost:1313/tw-portfolio/</link>
     <description>Recent content in Home on Technical Writing Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 24 Jul 2025 08:00:00 -0700</lastBuildDate>
-    <atom:link href="https://naem-j.github.io/tw-portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tw-portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vector-Based Illustrations</title>
-      <link>https://naem-j.github.io/tw-portfolio/illustrations/</link>
+      <link>http://localhost:1313/tw-portfolio/illustrations/</link>
       <pubDate>Thu, 24 Jul 2025 08:00:00 -0700</pubDate>
-      <guid>https://naem-j.github.io/tw-portfolio/illustrations/</guid>
-      <description>&lt;p&gt;The following illustrations are vector-based drawings I made based on 3D models. These illustrations demonstrate different types of drawings.&lt;/p&gt;&#xA;&lt;h2 id=&#34;isometric-projection&#34;&gt;Isometric Projection&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://naem-j.github.io/tw-portfolio/device_iso.svg&#34; alt=&#34;Isometric Projection Example&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exploded-view&#34;&gt;Exploded View&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://naem-j.github.io/tw-portfolio/camera_installation.svg&#34; alt=&#34;Exploded View Example&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;diagram&#34;&gt;Diagram&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://naem-j.github.io/tw-portfolio/diagram_avs_legacy_data_blurred.png&#34; alt=&#34;Diagram Example&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/tw-portfolio/illustrations/</guid>
+      <description>&lt;p&gt;The following illustrations are vector-based drawings I made based on 3D models. These illustrations demonstrate different types of drawings.&lt;/p&gt;&#xA;&lt;h2 id=&#34;isometric-projection&#34;&gt;Isometric Projection&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/tw-portfolio/device_iso.svg&#34; alt=&#34;Isometric Projection Example&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;exploded-view&#34;&gt;Exploded View&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/tw-portfolio/camera_installation.svg&#34; alt=&#34;Exploded View Example&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;diagram&#34;&gt;Diagram&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/tw-portfolio/diagram_avs_legacy_data_blurred.png&#34; alt=&#34;Diagram Example&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>About</title>
-      <link>https://naem-j.github.io/tw-portfolio/about/</link>
+      <link>http://localhost:1313/tw-portfolio/about/</link>
       <pubDate>Sun, 01 Jan 2023 08:00:00 -0700</pubDate>
-      <guid>https://naem-j.github.io/tw-portfolio/about/</guid>
+      <guid>http://localhost:1313/tw-portfolio/about/</guid>
       <description>&lt;p&gt;My name is Jeff Naemura. I am a professional technical writer with a natural curiosity in how new technologies can  improve my work&amp;ndash;whether that is in processes or content development. I&amp;rsquo;m passionate about the perspective I bring to a project team and believe in advocating for the intended audience at all times. I strive to uphold a high level of quality in my work while also pursuing opportunities to elevate the overall user experience through collaboration and teamwork.&lt;/p&gt;</description>
     </item>
   </channel>
