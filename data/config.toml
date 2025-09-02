@@ -1,0 +1,23 @@
+# Identify owner in footer
+author = 'Jeff Naemura'
+
+# Toggle sections on landing page on or off
+[home]
+  date_format = '2025-01-02'
+  organizations = true
+  portfolio = true
+  blog = false
+  old_projects = false
+  other_docs = true
+
+# Create hyperlinks below landing page contents
+[socials]
+#  [socials.1]
+#    title = 'github'
+#    url = 'https://github.com/ArkhamCookie'
+#  [socials.2]
+#    title = 'mastadon'
+#    url = 'https://tilde.zone/@ArkhamCookie'
+#  [socials.3]
+#    title = 'website'
+#    url = 'https://arkhamcookie.com'

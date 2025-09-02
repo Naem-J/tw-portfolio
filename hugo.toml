@@ -1,0 +1,24 @@
+# baseURL = 'https://naem-j.github.io/tw-portfolio'
+baseURL = 'https://www.example.com'
+languageCode = 'en-us'
+title = 'Technical Writing Portfolio'
+
+theme = 'moonwalk-hugo'
+
+# Creates the hyperlinks in the header
+[menus]
+  [[menus.main]]
+    name = 'About'
+    pageRef = '/about'
+
+  [[menus.main]]
+    name = 'LinkedIn'
+    url = 'https://www.linkedin.com/in/jeffnaemura'
+
+  [[menus.main]]
+    name = 'GitHub'
+    url = 'https://github.com/Naem-J'
+
+  [params]
+  #  [params.author]
+  #  	email = 'example@example.com'

@@ -1,0 +1,20 @@
+# Creates the list of other document types not highlighted in the cards
+[doc_types]
+	[doc_types.1]
+		title = 'Help files'
+	[doc_types.2]
+		title = 'Knowledge base articles'
+	[doc_types.3]
+		title = 'Frequently asked questions (FAQs)'
+	[doc_types.4]
+		title = 'Labels (including batch exports for localized text from an XML file)'
+	[doc_types.5]
+		title = 'Specifications sheets'
+	[doc_types.6]
+		title = 'User requirements specifications (URS)'
+  [doc_types.7]
+  	title = 'Test protocols'
+  [doc_types.8]
+    title = 'PDF forms (with JavaScript input validation and calculations)'
+  [doc_types.9]
+    title = 'Templates (in Microsoft Word, MadCap Flare, and Adobe InDesign)'
