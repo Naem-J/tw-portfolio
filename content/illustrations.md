@@ -9,12 +9,12 @@ The following illustrations are vector-based drawings I made based on 3D models.
 
 ## Isometric Projection
 
-![Isometric Projection Example](/device_iso.svg)
+![Isometric Projection Example](/tw-portfolio/device_iso.svg)
 
 ## Exploded View
 
-![Exploded View Example](/camera_installation.svg)
+![Exploded View Example](/tw-portfolio/camera_installation.svg)
 
 ## Diagram
 
-![Diagram Example](/diagram_avs_legacy_data_blurred.png)
+![Diagram Example](/tw-portfolio/diagram_avs_legacy_data_blurred.png)
