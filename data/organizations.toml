@@ -2,19 +2,19 @@
 [organizations]
 	[org.1]
 		title = 'The University of Washington'
-    logo = '/logos_uw.svg'
+    logo = '/tw-portfolio/logos_uw.svg'
     alt = 'UW logo'
 		url = 'https://www.pce.uw.edu/specializations/api-documentation'
 		description = "'s Specialization in API Documentation program explores what it takes to write clear, accurate API documentation. As part of the program, I created documentation for API ideas from classmates."
 	[org.2]
 		title = 'Alcon Laboratories, Inc.'
-    logo = '/logos_alcon.svg'
+    logo = '/tw-portfolio/logos_alcon.svg'
     alt = 'Alcon logo'
 		url = 'https://www.alcon.com/'
 		description = ' is a global leader in eye care. I work as senior member of the technical writing team for products in the Alcon Vision Suite (surgical workflow), including hardware and software products.'
 	[org.3]
 		title = 'Extron Electronics'
-    logo = '/logos_extron.svg'
+    logo = '/tw-portfolio/logos_extron.svg'
     alt = 'Extron logo'
 		url = 'https://www.extron.com/'
 		description = ' is a leader in manufacturing professional audiovisual integration equipment (hardware and software products). I created content for the highest priority products within a given template.'

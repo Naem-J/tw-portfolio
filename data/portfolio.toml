@@ -6,23 +6,23 @@
 		description = 'An academic project based on an idea from a classmate and hosted on GitHub Pages'
 	[projects.2]
 		title = 'Release Notes'
-		url = '/scp_5.06_release_notes_redacted.pdf'
+		url = '/tw-portfolio/scp_5.06_release_notes_redacted.pdf'
 		description = 'Customer-facing release notes derived from Jira issues (exported to PDF)'
 	[projects.3]
 		title = 'IFU or DFU'
-		url = '/905-2700-001_C.pdf'
+		url = '/tw-portfolio/905-2700-001_C.pdf'
 		description = 'Accompanying documentation for an ophthalmic medical device'
 	[projects.4]
 		title = 'User Manual'
-		url = '/68-2290-01_G_in1606-in1608_ug.pdf'
+		url = '/tw-portfolio/68-2290-01_G_in1606-in1608_ug.pdf'
 		description = 'A user-focused document detailing how to operate rack-mounted switchers'
 #		wip = true
 	[projects.5]
 		title = 'Setup Guide'
-		url = '/68-2374-50_A_xtp_t_fb_202.pdf'
+		url = '/tw-portfolio/68-2374-50_A_xtp_t_fb_202.pdf'
 		description = 'Installation procedures of a fiber optic transmitter into electrical floor boxes'
 #		wip = true
 	[projects.6]
 		title = 'Technical Illustrations'
-		url = '/illustrations'
+		url = '/tw-portfolio/illustrations'
 		description = 'Samples of different types of vector-based technical illustrations'
