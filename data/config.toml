@@ -21,3 +21,8 @@ author = 'Jeff Naemura'
 #  [socials.3]
 #    title = 'website'
 #    url = 'https://arkhamcookie.com'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+    
